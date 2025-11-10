@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luggage - Skybags Premium Travel Gear</title>
+    <link rel="stylesheet" href="sky1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="sky1.html">
+      <img src="./img/Skybags_Logo._140x.png" alt="Skybags Logo" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav mx-auto align-items-lg-center">
+
+        <li class="nav-item"><a class="nav-link" href="#">Sale</a></li>
+
+        <!-- ====== Luggage ====== -->
+        <li class="nav-item dropdown position-static">
+          <div class="d-flex align-items-center">
+            <a class="nav-link" href="luggage.html">Luggage</a>
+            <button class="dropdown-toggle-btn d-lg-none ms-1" data-bs-toggle="collapse" data-bs-target="#luggageMenu">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="dropdown-menu p-4 collapse d-lg-block" id="luggageMenu">
+            <div class="row">
+              <div class="col-md-3">
+                <h6>Type</h6>
+                <a href="#">Hard Luggage</a>
+                <a href="#">Soft Luggage</a>
+              </div>
+              <div class="col-md-3">
+                <h6>Size</h6>
+                <a href="#">Cabin</a>
+                <a href="#">Medium</a>
+                <a href="#">Large</a>
+              </div>
+              <div class="col-md-3">
+                <h6>Feature</h6>
+                <a href="#">TSA Lock</a>
+                <a href="#">Anti-Theft</a>
+                <a href="#">Dual Wheels</a>
+              </div>
+              <div class="col-md-3">
+                <img src="./img/sample1.png" class="img-fluid mb-2" alt="">
+                <img src="./img/sample2.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ====== Backpack ====== -->
+        <li class="nav-item dropdown position-static">
+          <div class="d-flex align-items-center">
+            <a class="nav-link" href="backpack.html">Backpack</a>
+            <button class="dropdown-toggle-btn d-lg-none ms-1" data-bs-toggle="collapse" data-bs-target="#backpackMenu">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="dropdown-menu p-4 collapse d-lg-block" id="backpackMenu">
+            <div class="row">
+              <div class="col-md-4">
+                <h6>Type</h6>
+                <a href="#">Laptop Backpack</a>
+                <a href="#">Casual Backpack</a>
+              </div>
+              <div class="col-md-4">
+                <h6>Feature</h6>
+                <a href="#">Water Resistant</a>
+                <a href="#">USB Charging</a>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/sample3.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ====== Duffles ====== -->
+        <li class="nav-item dropdown position-static">
+          <div class="d-flex align-items-center">
+            <a class="nav-link" href="duffles.html">Duffles</a>
+            <button class="dropdown-toggle-btn d-lg-none ms-1" data-bs-toggle="collapse" data-bs-target="#duffleMenu">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="dropdown-menu p-4 collapse d-lg-block" id="duffleMenu">
+            <div class="row">
+              <div class="col-md-4">
+                <h6>Type</h6>
+                <a href="#">Rolling Duffles</a>
+                <a href="#">Gym Duffles</a>
+              </div>
+              <div class="col-md-4">
+                <h6>Feature</h6>
+                <a href="#">Foldable</a>
+                <a href="#">Waterproof</a>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/sample4.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="#">Accessories</a></li>
+      </ul>
+
+      <div class="icon-group">
+        <i class="fa-regular fa-user icon-btn"></i>
+        <div class="search-wrap" id="searchWrap">
+          <i class="fa-solid fa-magnifying-glass icon-btn" id="searchToggle"></i>
+          <input type="text" class="search-input" id="searchInput" placeholder="Search..." />
+        </div>
+        <i class="fa-solid fa-cart-shopping icon-btn"></i>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Luggage Collection</h1>
+            <p>Explore our premium range of travel luggage for every journey</p>
+        </div>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filter-section">
+        <div class="container">
+            <div class="filter-options">
+                <div class="filter-group">
+                    <h4>Type</h4>
+                    <div class="filter-items">
+                        <div class="filter-item active">All</div>
+                        <div class="filter-item">Hard Luggage</div>
+                        <div class="filter-item">Soft Luggage</div>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h4>Size</h4>
+                    <div class="filter-items">
+                        <div class="filter-item">Cabin</div>
+                        <div class="filter-item">Medium</div>
+                        <div class="filter-item">Large</div>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h4>Feature</h4>
+                    <div class="filter-items">
+                        <div class="filter-item">TSA Lock</div>
+                        <div class="filter-item">Anti-Theft</div>
+                        <div class="filter-item">Dual Wheels</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="products-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1-removebg-preview_2_297x.png?v=1742806816" alt="Skybags Hard Luggage">
+                        <div class="product-badge">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Hard Luggage</h3>
+                        <p>Premium hard shell suitcase with TSA lock</p>
+                        <div class="product-price">
+                            <span class="current-price">$129.99</span>
+                            <span class="original-price">$159.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-lock"></i> TSA Lock</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> 4 Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/travel3_297x.png?v=1693900327" alt="Skybags Cabin Luggage">
+                        <div class="product-badge">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Cabin Luggage</h3>
+                        <p>Compact cabin suitcase with USB port</p>
+                        <div class="product-price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-bolt"></i> USB Port</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> 360° Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/SkybagsOpenskiesLightBlue_98c9a0c9-a766-4134-9f94-b31642257ecd_297x.png?v=1760337193" alt="Skybags Large Luggage">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Large Luggage</h3>
+                        <p>Spacious luggage for long trips</p>
+                        <div class="product-price">
+                            <span class="current-price">$149.99</span>
+                            <span class="original-price">$179.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-expand-arrows-alt"></i> Expandable</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> 8 Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/CAMOFLEXGreen_297x.png?v=1760338816" alt="Skybags Soft Luggage">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Soft Luggage</h3>
+                        <p>Lightweight soft shell suitcase</p>
+                        <div class="product-price">
+                            <span class="current-price">$99.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-tint-slash"></i> Water Resistant</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> 4 Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/ABSTRACTYellow_297x.png?v=1760338507" alt="Skybags Premium Luggage">
+                        <div class="product-badge">Premium</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Premium Luggage</h3>
+                        <p>Luxury luggage with premium features</p>
+                        <div class="product-price">
+                            <span class="current-price">$199.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-fingerprint"></i> Fingerprint Lock</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> Silent Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/JErrycanPURPLE_297x.png?v=1760338807" alt="Skybags Travel Set">
+                        <div class="product-badge">Set</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Travel Set</h3>
+                        <p>Complete luggage set for travelers</p>
+                        <div class="product-price">
+                            <span class="current-price">$299.99</span>
+                            <span class="original-price">$349.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-lock"></i> TSA Lock</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> 8 Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_1_2ab29ee9-0b04-4e4a-a92b-30021961841b_297x.png?v=1760338142" alt="Skybags Business Luggage">
+                        <div class="product-badge">Business</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Business Luggage</h3>
+                        <p>Professional luggage for business travelers</p>
+                        <div class="product-price">
+                            <span class="current-price">$169.99</span>
+                            <span class="original-price">$199.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-briefcase"></i> Laptop Compartment</span>
+                            <span><i class="fas fa-lock"></i> TSA Lock</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1-removebg-preview_3_d1bbd3c0-99b6-4680-a779-d985ad72bb48_297x.png?v=1742806816" alt="Skybags Expandable Luggage">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Expandable Luggage</h3>
+                        <p>Extra spacious with expandable feature</p>
+                        <div class="product-price">
+                            <span class="current-price">$139.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-expand-arrows-alt"></i> +25% Capacity</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> 360° Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/GAME-ON_297x.png?v=1760338538" alt="Skybags Lightweight Luggage">
+                        <div class="product-badge">Lightweight</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Lightweight Luggage</h3>
+                        <p>Ultra-light suitcase for easy handling</p>
+                        <div class="product-price">
+                            <span class="current-price">$119.99</span>
+                            <span class="original-price">$139.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-weight"></i> Only 2.5kg</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> 4 Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/DarkBlue_297x.png?v=1720185879" alt="Skybags Kids Luggage">
+                        <div class="product-badge">Kids</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Kids Luggage</h3>
+                        <p>Fun and colorful luggage for children</p>
+                        <div class="product-price">
+                            <span class="current-price">$79.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-child"></i> Child Friendly</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> 4 Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 11 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/L-M-S_1_5af408af-c6f2-4ea8-9f4b-c25c303b2ea1_297x.jpg?v=1725446145" alt="Skybags Vintage Luggage">
+                        <div class="product-badge">Vintage</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Vintage Luggage</h3>
+                        <p>Retro-style luggage with modern features</p>
+                        <div class="product-price">
+                            <span class="current-price">$159.99</span>
+                            <span class="original-price">$189.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-history"></i> Vintage Design</span>
+                            <span><i class="fas fa-lock"></i> TSA Lock</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 12 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/L-M-S_1_297x.png?v=1724994901" alt="Skybags Sports Luggage">
+                        <div class="product-badge">Sports</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Sports Luggage</h3>
+                        <p>Durable luggage for sports equipment</p>
+                        <div class="product-price">
+                            <span class="current-price">$179.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-baseball-ball"></i> Sports Gear</span>
+                            <span><i class="fas fa-tint-slash"></i> Water Resistant</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 13 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/TWENTYFOUR7-Black_297x.png?v=1760338496" alt="Skybags Smart Luggage">
+                        <div class="product-badge">Smart</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Smart Luggage</h3>
+                        <p>Tech-enabled luggage with smart features</p>
+                        <div class="product-price">
+                            <span class="current-price">$229.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-mobile-alt"></i> App Connected</span>
+                            <span><i class="fas fa-battery-full"></i> Power Bank</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 14 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/Black_297x.png?v=1720185878" alt="Skybags Foldable Luggage">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Foldable Luggage</h3>
+                        <p>Space-saving foldable design</p>
+                        <div class="product-price">
+                            <span class="current-price">$109.99</span>
+                            <span class="original-price">$129.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-compress-arrows-alt"></i> Foldable</span>
+                            <span><i class="fas fa-suitcase-rolling"></i> 4 Wheels</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 15 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/DarkBlue_297x.png?v=1720185879" alt="Skybags Designer Luggage">
+                        <div class="product-badge">Designer</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Designer Luggage</h3>
+                        <p>Limited edition designer collection</p>
+                        <div class="product-price">
+                            <span class="current-price">$249.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-palette"></i> Designer Edition</span>
+                            <span><i class="fas fa-gem"></i> Premium Finish</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 16 -->
+                <!-- <div class="product-card">
+                    <div class="product-image">
+                        <img src="./img/luggage16.jpg" alt="Skybags Adventure Luggage">
+                        <div class="product-badge">Adventure</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Adventure Luggage</h3>
+                        <p>Rugged luggage for outdoor adventures</p>
+                        <div class="product-price">
+                            <span class="current-price">$189.99</span>
+                            <span class="original-price">$219.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-mountain"></i> Adventure Ready</span>
+                            <span><i class="fas fa-shield-alt"></i> Shock Proof</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section">
+        <div class="container">
+            <h2>Why Choose Skybags Luggage?</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-award"></i>
+                    <h4>10 Year Warranty</h4>
+                    <p>Our luggage comes with a comprehensive 10-year warranty for peace of mind.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-lock"></i>
+                    <h4>TSA Approved Locks</h4>
+                    <p>Security you can trust with TSA approved combination locks.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-suitcase-rolling"></i>
+                    <h4>360° Spinner Wheels</h4>
+                    <p>Maneuver effortlessly with our smooth 360-degree spinner wheels.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                    <h4>Expandable Design</h4>
+                    <p>Extra packing space when you need it with our expandable compartments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div class="footer-section">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="backpack.html">Backpacks</a></li>
+                    <li><a href="luggage.html">Luggage</a></li>
+                    <li><a href="duffles.html">Duffles</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Collections</h3>
+                <ul>
+                    <li><a href="#">Marvel</a></li>
+                    <li><a href="#">Disney</a></li>
+                    <li><a href="#">Class of '24</a></li>
+                    <li><a href="#">Archies</a></li>
+                    <li><a href="#">Sports</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Returns & Exchange</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Stay Connected</h3>
+                <p>Subscribe to our newsletter for the latest updates and offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa" title="Visa"></i>
+                <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+                <i class="fab fa-cc-amex" title="American Express"></i>
+                <i class="fab fa-cc-paypal" title="PayPal"></i>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo-vector.svg/1200px-UPI-Logo-vector.svg.png" alt="UPI" title="UPI" style="height:25px;">
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Skybags. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        /* ----------------- SEARCH BEHAVIOR ----------------- */
+  const wrap=document.getElementById('searchWrap');
+  const toggle=document.getElementById('searchToggle');
+  const input=document.getElementById('searchInput');
+  toggle.addEventListener('click',()=>{
+    wrap.classList.toggle('active');
+    if(wrap.classList.contains('active')) input.focus();
+  });
+  document.addEventListener('click',e=>{
+    if(!wrap.contains(e.target)&&wrap.classList.contains('active')) wrap.classList.remove('active');
+  });
+
+  // Dropdown collapse toggle rotation for mobile arrows
+  const buttons = document.querySelectorAll('.dropdown-toggle-btn');
+  buttons.forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', !expanded);
+    });
+  });
+
+        // Close search when clicking outside or pressing ESC
+        document.addEventListener('click', (e) => {
+            if (!wrap.contains(e.target) && wrap.classList.contains('active')) {
+                wrap.classList.remove('active'); input.value='';
+            }
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && wrap.classList.contains('active')) {
+                wrap.classList.remove('active'); input.value='';
+            }
+        });
+
+        /* -------- DESKTOP: click navigates; MOBILE: click toggles -------- */
+        const BREAKPOINT = 992; // Bootstrap lg
+        const dropdownLinks = document.querySelectorAll('.dd-link');
+
+        function applyDropdownMode(){
+            const isDesktop = window.innerWidth >= BREAKPOINT;
+
+            dropdownLinks.forEach(link => {
+                // Remove any previous handlers
+                link.replaceWith(link.cloneNode(true));
+            });
+
+            // reselect after cloning
+            const fresh = document.querySelectorAll('.dd-link');
+
+            fresh.forEach(link => {
+                if (isDesktop){
+                    // Desktop: no bootstrap toggling on the link itself (hover shows menu via CSS)
+                    link.removeAttribute('data-bs-toggle');
+                } else {
+                    // Mobile/Tablet: tap toggles dropdown, not navigation
+                    link.setAttribute('data-bs-toggle','dropdown');
+                    link.addEventListener('click', (ev) => {
+                        ev.preventDefault(); // prevent navigating to luggage.html etc on small screens
+                    });
+                }
+            });
+        }
+        applyDropdownMode();
+        window.addEventListener('resize', applyDropdownMode);
+
+        // Filter functionality
+        document.querySelectorAll('.filter-item').forEach(item => {
+            item.addEventListener('click', function() {
+                // Remove active class from all items in the same group
+                this.parentElement.querySelectorAll('.filter-item').forEach(i => {
+                    i.classList.remove('active');
+                });
+                // Add active class to clicked item
+                this.classList.add('active');
+                
+                // In a real implementation, you would filter products here
+                // For this demo, we'll just log the filter selection
+                console.log('Filter selected:', this.textContent);
+            });
+        });
+
+        // Add to cart functionality
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', function() {
+                const productName = this.closest('.product-card').querySelector('h3').textContent;
+                alert(`${productName} added to cart!`);
+            });
+        });
+    </script>
+</body>
+</html>

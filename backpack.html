@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backpacks - Skybags Premium Travel Gear</title>
+    <link rel="stylesheet" href="sky1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="sky1.html">
+      <img src="./img/Skybags_Logo._140x.png" alt="Skybags Logo" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav mx-auto align-items-lg-center">
+
+        <li class="nav-item"><a class="nav-link" href="#">Sale</a></li>
+
+        <!-- ====== Luggage ====== -->
+        <li class="nav-item dropdown position-static">
+          <div class="d-flex align-items-center">
+            <a class="nav-link" href="luggage.html">Luggage</a>
+            <button class="dropdown-toggle-btn d-lg-none ms-1" data-bs-toggle="collapse" data-bs-target="#luggageMenu">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="dropdown-menu p-4 collapse d-lg-block" id="luggageMenu">
+            <div class="row">
+              <div class="col-md-3">
+                <h6>Type</h6>
+                <a href="#">Hard Luggage</a>
+                <a href="#">Soft Luggage</a>
+              </div>
+              <div class="col-md-3">
+                <h6>Size</h6>
+                <a href="#">Cabin</a>
+                <a href="#">Medium</a>
+                <a href="#">Large</a>
+              </div>
+              <div class="col-md-3">
+                <h6>Feature</h6>
+                <a href="#">TSA Lock</a>
+                <a href="#">Anti-Theft</a>
+                <a href="#">Dual Wheels</a>
+              </div>
+              <div class="col-md-3">
+                <img src="./img/sample1.png" class="img-fluid mb-2" alt="">
+                <img src="./img/sample2.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ====== Backpack ====== -->
+        <li class="nav-item dropdown position-static">
+          <div class="d-flex align-items-center">
+            <a class="nav-link" href="backpack.html">Backpack</a>
+            <button class="dropdown-toggle-btn d-lg-none ms-1" data-bs-toggle="collapse" data-bs-target="#backpackMenu">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="dropdown-menu p-4 collapse d-lg-block" id="backpackMenu">
+            <div class="row">
+              <div class="col-md-4">
+                <h6>Type</h6>
+                <a href="#">Laptop Backpack</a>
+                <a href="#">Casual Backpack</a>
+              </div>
+              <div class="col-md-4">
+                <h6>Feature</h6>
+                <a href="#">Water Resistant</a>
+                <a href="#">USB Charging</a>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/sample3.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ====== Duffles ====== -->
+        <li class="nav-item dropdown position-static">
+          <div class="d-flex align-items-center">
+            <a class="nav-link" href="duffles.html">Duffles</a>
+            <button class="dropdown-toggle-btn d-lg-none ms-1" data-bs-toggle="collapse" data-bs-target="#duffleMenu">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="dropdown-menu p-4 collapse d-lg-block" id="duffleMenu">
+            <div class="row">
+              <div class="col-md-4">
+                <h6>Type</h6>
+                <a href="#">Rolling Duffles</a>
+                <a href="#">Gym Duffles</a>
+              </div>
+              <div class="col-md-4">
+                <h6>Feature</h6>
+                <a href="#">Foldable</a>
+                <a href="#">Waterproof</a>
+              </div>
+              <div class="col-md-4">
+                <img src="./img/sample4.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="#">Accessories</a></li>
+      </ul>
+
+      <div class="icon-group">
+        <i class="fa-regular fa-user icon-btn"></i>
+        <div class="search-wrap" id="searchWrap">
+          <i class="fa-solid fa-magnifying-glass icon-btn" id="searchToggle"></i>
+          <input type="text" class="search-input" id="searchInput" placeholder="Search..." />
+        </div>
+        <i class="fa-solid fa-cart-shopping icon-btn"></i>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Backpack Collection</h1>
+            <p>Discover our stylish and functional backpacks for everyday use</p>
+        </div>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filter-section">
+        <div class="container">
+            <div class="filter-options">
+                <div class="filter-group">
+                    <h4>Type</h4>
+                    <div class="filter-items">
+                        <div class="filter-item active">All</div>
+                        <div class="filter-item">Laptop Backpack</div>
+                        <div class="filter-item">Casual Backpack</div>
+                        <div class="filter-item">Travel Backpack</div>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h4>Feature</h4>
+                    <div class="filter-items">
+                        <div class="filter-item">Water Resistant</div>
+                        <div class="filter-item">USB Charging</div>
+                        <div class="filter-item">Anti-Theft</div>
+                        <div class="filter-item">Laptop Compartment</div>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h4>Capacity</h4>
+                    <div class="filter-items">
+                        <div class="filter-item">Small (Under 20L)</div>
+                        <div class="filter-item">Medium (20-30L)</div>
+                        <div class="filter-item">Large (30L+)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="products-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_6bef888d-aa50-466c-84a8-9977f3b671e7_297x.png?v=1740657343" alt="Skybags Laptop Backpack">
+                        <div class="product-badge">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Laptop Backpack</h3>
+                        <p>Professional backpack with dedicated laptop compartment</p>
+                        <div class="product-price">
+                            <span class="current-price">$79.99</span>
+                            <span class="original-price">$99.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-laptop"></i> Laptop Sleeve</span>
+                            <span><i class="fas fa-tint-slash"></i> Water Resistant</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/SkybagsTRIBE01_297x.png?v=1705911222" alt="Skybags USB Backpack">
+                        <div class="product-badge">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags USB Backpack</h3>
+                        <p>Modern backpack with built-in USB charging port</p>
+                        <div class="product-price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-bolt"></i> USB Port</span>
+                            <span><i class="fas fa-lock"></i> Anti-Theft</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_5ce8b087-2638-4700-a759-6cca6c9bca07_297x.png?v=1740982511" alt="Skybags Casual Backpack">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Casual Backpack</h3>
+                        <p>Stylish everyday backpack for urban lifestyle</p>
+                        <div class="product-price">
+                            <span class="current-price">$59.99</span>
+                            <span class="original-price">$79.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-compress-arrows-alt"></i> Multiple Pockets</span>
+                            <span><i class="fas fa-tint-slash"></i> Water Resistant</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_1800x1800_80d1fd9c-8217-4065-932b-ff07efb63aa7_297x.png?v=1740663822" alt="Skybags Travel Backpack">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Travel Backpack</h3>
+                        <p>Spacious backpack for short trips and adventures</p>
+                        <div class="product-price">
+                            <span class="current-price">$99.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-expand-arrows-alt"></i> Expandable</span>
+                            <span><i class="fas fa-lock"></i> TSA Lock</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_b5783bb6-c59e-491b-8d86-d1dcbfe43911_297x.png?v=1705650218" alt="Skybags Anti-Theft Backpack">
+                        <div class="product-badge">Security</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Anti-Theft Backpack</h3>
+                        <p>Secure backpack with hidden compartments</p>
+                        <div class="product-price">
+                            <span class="current-price">$109.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-lock"></i> RFID Protection</span>
+                            <span><i class="fas fa-user-secret"></i> Hidden Pockets</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_f6121ffb-28b4-4caa-88f6-28f7e423883f_297x.png?v=1742802930" alt="Skybags Premium Backpack">
+                        <div class="product-badge">Premium</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Premium Backpack</h3>
+                        <p>Luxury backpack with premium materials</p>
+                        <div class="product-price">
+                            <span class="current-price">$129.99</span>
+                            <span class="original-price">$159.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-gem"></i> Premium Material</span>
+                            <span><i class="fas fa-laptop"></i> 17" Laptop</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_1800x1800_02f51b14-eeae-48f8-afbd-e43eb1bbabac_297x.png?v=1740664278" alt="Skybags Student Backpack">
+                        <div class="product-badge">Student</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Student Backpack</h3>
+                        <p>Perfect backpack for school and college students</p>
+                        <div class="product-price">
+                            <span class="current-price">$69.99</span>
+                            <span class="original-price">$89.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-book"></i> Books Compartment</span>
+                            <span><i class="fas fa-bottle-water"></i> Bottle Holder</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_1800x1800_78e81709-cdc0-4c55-b5dc-e064ab268f1b_297x.png?v=1740664019" alt="Skybags Hiking Backpack">
+                        <div class="product-badge">Hiking</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Hiking Backpack</h3>
+                        <p>Durable backpack for outdoor adventures</p>
+                        <div class="product-price">
+                            <span class="current-price">$119.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-hiking"></i> Hiking Ready</span>
+                            <span><i class="fas fa-campground"></i> Camping Gear</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_1800x1800_24afbbc1-ad2d-43a3-b3b0-c816ac296e26_297x.png?v=1740663450" alt="Skybags Minimalist Backpack">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Minimalist Backpack</h3>
+                        <p>Sleek and simple design for minimalists</p>
+                        <div class="product-price">
+                            <span class="current-price">$49.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-minus"></i> Minimal Design</span>
+                            <span><i class="fas fa-weight"></i> Lightweight</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_988fd8b3-3d13-4b15-bd41-7193f6ec7ac5_297x.png?v=1740659443" alt="Skybags Business Backpack">
+                        <div class="product-badge">Business</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Business Backpack</h3>
+                        <p>Professional backpack for business travelers</p>
+                        <div class="product-price">
+                            <span class="current-price">$139.99</span>
+                            <span class="original-price">$169.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-briefcase"></i> Business Ready</span>
+                            <span><i class="fas fa-passport"></i> Document Pocket</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 11 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_1800x1800_9f8fb07d-a496-452e-bb00-53c2d01d0228_297x.png?v=1740656533" alt="Skybags Camera Backpack">
+                        <div class="product-badge">Camera</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Camera Backpack</h3>
+                        <p>Specialized backpack for photography equipment</p>
+                        <div class="product-price">
+                            <span class="current-price">$149.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-camera"></i> Camera Compartment</span>
+                            <span><i class="fas fa-cube"></i> Lens Pockets</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 12 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_9e35d351-8b18-4b20-b22e-7a973799ae7b_297x.png?v=1740657234" alt="Skybags Gaming Backpack">
+                        <div class="product-badge">Gaming</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Gaming Backpack</h3>
+                        <p>Designed for gamers with dedicated compartments</p>
+                        <div class="product-price">
+                            <span class="current-price">$99.99</span>
+                            <span class="original-price">$119.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-gamepad"></i> Gaming Gear</span>
+                            <span><i class="fas fa-headset"></i> Headset Pocket</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 13 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_1800x1800_2cf04727-1cc6-4744-9e0f-718d6fb2c6bc_297x.png?v=1740663778" alt="Skybags Rolltop Backpack">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Rolltop Backpack</h3>
+                        <p>Weather-proof rolltop design for maximum protection</p>
+                        <div class="product-price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-umbrella"></i> Weather Proof</span>
+                            <span><i class="fas fa-expand-alt"></i> Expandable</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 14 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_28a80a62-2a2a-468b-8d7d-a58bff423a0b_297x.png?v=1740660386" alt="Skybags Messenger Backpack">
+                        <div class="product-badge">Hybrid</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Messenger Backpack</h3>
+                        <p>Convertible backpack-messenger bag hybrid</p>
+                        <div class="product-price">
+                            <span class="current-price">$79.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-sync"></i> Convertible</span>
+                            <span><i class="fas fa-briefcase"></i> Professional</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 15 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_cb9ac31c-0946-499b-8c5b-741f304a4b5a_297x.png?v=1740659999" alt="Skybags Vintage Backpack">
+                        <div class="product-badge">Vintage</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Vintage Backpack</h3>
+                        <p>Retro-style backpack with classic design</p>
+                        <div class="product-price">
+                            <span class="current-price">$69.99</span>
+                            <span class="original-price">$89.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-history"></i> Vintage Style</span>
+                            <span><i class="fas fa-leather"></i> Leather Accents</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 16 -->
+                <!-- <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0696/1011/1257/files/1_1800x1800_575784a5-7ee0-4526-8631-fbc772982269_297x.png?v=1740663912" alt="Skybags Smart Backpack">
+                        <div class="product-badge">Smart</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Skybags Smart Backpack</h3>
+                        <p>Tech-enabled backpack with smart features</p>
+                        <div class="product-price">
+                            <span class="current-price">$159.99</span>
+                        </div>
+                        <div class="product-features">
+                            <span><i class="fas fa-robot"></i> Smart Features</span>
+                            <span><i class="fas fa-battery-full"></i> Power Bank</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section">
+        <div class="container">
+            <h2>Why Choose Skybags Backpacks?</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-award"></i>
+                    <h4>10 Year Warranty</h4>
+                    <p>Our backpacks come with a comprehensive 10-year warranty for peace of mind.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-laptop"></i>
+                    <h4>Laptop Protection</h4>
+                    <p>Dedicated padded compartments to keep your devices safe and secure.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tint-slash"></i>
+                    <h4>Water Resistant</h4>
+                    <p>Stay dry in unexpected weather with our water-resistant materials.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-bolt"></i>
+                    <h4>USB Charging</h4>
+                    <p>Built-in USB ports for convenient on-the-go charging of your devices.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div class="footer-section">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="backpack.html">Backpacks</a></li>
+                    <li><a href="luggage.html">Luggage</a></li>
+                    <li><a href="duffles.html">Duffles</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Collections</h3>
+                <ul>
+                    <li><a href="#">Marvel</a></li>
+                    <li><a href="#">Disney</a></li>
+                    <li><a href="#">Class of '24</a></li>
+                    <li><a href="#">Archies</a></li>
+                    <li><a href="#">Sports</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Returns & Exchange</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Stay Connected</h3>
+                <p>Subscribe to our newsletter for the latest updates and offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa" title="Visa"></i>
+                <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+                <i class="fab fa-cc-amex" title="American Express"></i>
+                <i class="fab fa-cc-paypal" title="PayPal"></i>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo-vector.svg/1200px-UPI-Logo-vector.svg.png" alt="UPI" title="UPI" style="height:25px;">
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Skybags. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        /* ----------------- SEARCH BEHAVIOR ----------------- */
+          const wrap=document.getElementById('searchWrap');
+  const toggle=document.getElementById('searchToggle');
+  const input=document.getElementById('searchInput');
+  toggle.addEventListener('click',()=>{
+    wrap.classList.toggle('active');
+    if(wrap.classList.contains('active')) input.focus();
+  });
+  document.addEventListener('click',e=>{
+    if(!wrap.contains(e.target)&&wrap.classList.contains('active')) wrap.classList.remove('active');
+  });
+
+  // Dropdown collapse toggle rotation for mobile arrows
+  const buttons = document.querySelectorAll('.dropdown-toggle-btn');
+  buttons.forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', !expanded);
+    });
+  });
+
+        // Close search when clicking outside or pressing ESC
+        document.addEventListener('click', (e) => {
+            if (!wrap.contains(e.target) && wrap.classList.contains('active')) {
+                wrap.classList.remove('active'); input.value='';
+            }
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && wrap.classList.contains('active')) {
+                wrap.classList.remove('active'); input.value='';
+            }
+        });
+
+        /* -------- DESKTOP: click navigates; MOBILE: click toggles -------- */
+        const BREAKPOINT = 992; // Bootstrap lg
+        const dropdownLinks = document.querySelectorAll('.dd-link');
+
+        function applyDropdownMode(){
+            const isDesktop = window.innerWidth >= BREAKPOINT;
+
+            dropdownLinks.forEach(link => {
+                // Remove any previous handlers
+                link.replaceWith(link.cloneNode(true));
+            });
+
+            // reselect after cloning
+            const fresh = document.querySelectorAll('.dd-link');
+
+            fresh.forEach(link => {
+                if (isDesktop){
+                    // Desktop: no bootstrap toggling on the link itself (hover shows menu via CSS)
+                    link.removeAttribute('data-bs-toggle');
+                } else {
+                    // Mobile/Tablet: tap toggles dropdown, not navigation
+                    link.setAttribute('data-bs-toggle','dropdown');
+                    link.addEventListener('click', (ev) => {
+                        ev.preventDefault(); // prevent navigating to luggage.html etc on small screens
+                    });
+                }
+            });
+        }
+        applyDropdownMode();
+        window.addEventListener('resize', applyDropdownMode);
+
+        // Filter functionality
+        document.querySelectorAll('.filter-item').forEach(item => {
+            item.addEventListener('click', function() {
+                // Remove active class from all items in the same group
+                this.parentElement.querySelectorAll('.filter-item').forEach(i => {
+                    i.classList.remove('active');
+                });
+                // Add active class to clicked item
+                this.classList.add('active');
+                
+                // In a real implementation, you would filter products here
+                // For this demo, we'll just log the filter selection
+                console.log('Filter selected:', this.textContent);
+            });
+        });
+
+        // Add to cart functionality
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', function() {
+                const productName = this.closest('.product-card').querySelector('h3').textContent;
+                alert(`${productName} added to cart!`);
+            });
+        });
+    </script>
+</body>
+</html>
